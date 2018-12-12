@@ -1,9 +1,10 @@
 {
-  "name": "wiredinjs",
+  "name": "wiredin-node",
   "description": "Interact with Wired In device",
-  "version": "1.2.1",
-  "repository": "https://github.com/kenhowardpdx/wiredinjs",
+  "version": "1.0.0",
+  "repository": "https://github.com/kenhowardpdx/wiredin-node",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "lint": "tslint -p tsconfig.json",
