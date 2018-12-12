@@ -1,5 +1,4 @@
-# wiredin.js
-
+# wiredin-node
 
 How to use:
 
