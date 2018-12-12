@@ -6,7 +6,7 @@ const wiredin = (
 ): string => {
   try {
     return childProcess
-      .execFileSync('wiredin', [action, ...args])
+      .execFileSync('./node_modules/.bin/wiredin', [action, ...args])
       .toString()
       .replace(/\n/g, '>>')
       .replace(/\u001b\[[;\d]{0,}m[\s]{0,}/g, '')

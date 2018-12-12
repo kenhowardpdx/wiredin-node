@@ -12,6 +12,9 @@
     "test": "npm run test:unit -- --coverage",
     "watch": "tsc -watch -p tsconfig.json"
   },
+  "bin": {
+    "wiredin": "bin/wiredin"
+  },
   "devDependencies": {
     "@types/jest": "^23.3.10",
     "@types/node": "^8.10.25",
